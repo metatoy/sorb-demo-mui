@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.sorb/
+src/tokens/generated/
+storybook-static/
+.vite/

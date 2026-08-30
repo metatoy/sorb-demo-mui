@@ -1,0 +1,11 @@
+{
+  "namespace": "jj-mui",
+  "tokenSources": [
+    "node_modules/@metatoy/janes-jeans/tokens/primitive.json",
+    "node_modules/@metatoy/janes-jeans/tokens/semantic.json",
+    "node_modules/@metatoy/janes-jeans/tokens/component.json"
+  ],
+  "styleDictionaryConfig": "sd.config.js",
+  "port": 7783,
+  "appUrl": "http://localhost:5173"
+}

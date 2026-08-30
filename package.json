@@ -1,0 +1,35 @@
+{
+  "name": "sorb-demo-mui",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Janes Jeans on MUI (Material UI) — a Sorb multi-stack demo storefront.",
+  "type": "module",
+  "scripts": {
+    "tokens": "style-dictionary build --config ./sd.config.js",
+    "dev": "npm run tokens && vite",
+    "build": "npm run tokens && vite build",
+    "preview": "vite preview",
+    "storybook": "npm run tokens && storybook dev -p 6006",
+    "build-storybook": "npm run tokens && storybook build",
+    "sorb": "sorb dev --port 7783"
+  },
+  "dependencies": {
+    "@metatoy/janes-jeans": "file:../sorb-demo-kit",
+    "@sorb/leaf": "0.3.0",
+    "@mui/material": "^6.1.0",
+    "@mui/icons-material": "^6.1.0",
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "react-router-dom": "^7.1.0"
+  },
+  "devDependencies": {
+    "@sorb/juice": "0.3.0",
+    "@sorb/seed": "0.3.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "vite": "^5.4.0",
+    "style-dictionary": "^4.0.0",
+    "playwright": "^1.47.0"
+  }
+}
