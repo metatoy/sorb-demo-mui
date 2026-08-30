@@ -14,7 +14,7 @@
     "sorb": "sorb dev --port 7783"
   },
   "dependencies": {
-    "@metatoy/janes-jeans": "file:../sorb-demo-kit",
+    "@metatoy/janes-jeans": "github:metatoy/sorb-demo-kit#9972dcb9b897b5919cebc0b70af4307c613ee707",
     "@sorb/leaf": "0.3.0",
     "@mui/material": "^6.1.0",
     "@mui/icons-material": "^6.1.0",
