@@ -4,7 +4,7 @@
 import { readFileSync } from 'node:fs'
 import { chromium } from 'playwright'
 
-const APP = process.argv[2] || 'http://localhost:5273'
+const APP = process.argv[2] || 'http://127.0.0.1:5183'
 const BRIDGE = process.argv[3] || 'http://localhost:7783'
 
 const acidWash = JSON.parse(

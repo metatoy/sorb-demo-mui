@@ -4,8 +4,8 @@
 // verification item 3 of demo-sites-multistack.md).
 import { chromium } from 'playwright'
 
-const APP = process.argv[2] || 'http://localhost:4173'
-const BRIDGE = process.argv[3] || 'http://localhost:7783'
+const APP = process.argv[2] || 'http://127.0.0.1:5183'
+const BRIDGE = process.argv[3] || 'http://127.0.0.1:7783'
 
 const NEW_BRAND = '#ff00aa'
 const NEW_BRAND_HOVER = '#cc0088'

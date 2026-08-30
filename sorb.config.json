@@ -7,5 +7,5 @@
   ],
   "styleDictionaryConfig": "sd.config.js",
   "port": 7783,
-  "appUrl": "http://localhost:5173"
+  "appUrl": "http://127.0.0.1:5183"
 }
