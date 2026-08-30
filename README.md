@@ -5,8 +5,11 @@ v6.5**, themed live from Figma via Sorb. This is Phase **P3** of
 `spec/sorb/demo-sites-multistack.md` — see that spec (and
 `spec/sorb/demo-repo-skeleton.md`) for the full multi-stack program.
 
-Local dev: `npm install && npm run dev` (Vite, port 5173) · bridge: `npm run sorb`
-(port 7783, namespace `jj-mui`).
+Local dev: `npm install && npm run dev` (Vite, **port 5183**, host pinned to
+`127.0.0.1` — 5173-5175 are contested by sibling demos on this machine, and a
+background Vite can bind IPv6-only while the juice bridge binds 127.0.0.1,
+breaking headless verify scripts) · bridge: `npm run sorb` (port 7783,
+namespace `jj-mui`).
 
 ## MUI integration — what's themed, what isn't (EVIDENCE framing)
 
